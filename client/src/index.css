@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* font-family: "Poppins", sans-serif; */
+/* font-family: "Playfair Display", serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Navbar */
+.navbar {
+  font-family: "Poppins", serif;
+  font-size: 17px;
+  /* font-weight: 500; */
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 2px;
+}
+
+
+
+/* Page Not Found */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.pnf-btn:hover {
+  color: white;
+  background-color: black;
+}
+
+
+
+/* Contact Us */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* Register & Login */
+/* register page & login page */
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 72vh;
+  flex-direction: column;
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, grey 0%, white 100%); /* 0deg, white 0%, grey 100% */
+}
+
+.form-container form {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.form-container form .title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+.form-container form input {
+  border: none;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+}
+
+.form-container form button {
+  border: 1px solid black;
+  border-radius: 0;
+  background-color: #000;
+  color: white;
+  width: 250px;
+}
+
+.form-container form button:hover {
+  background-color: gray;
+  color: white;
+  border: 1px solid black;
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+}
+
+#design {
+  border: 2px solid red;
+  background-color: rgb(163, 120, 11);
+  color: white;
+}
+
+
+
+/* Footer */
+.footer {
+  color: white;
+  padding: 25px;
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000); 
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+
+.product-link {
+  text-decoration: none;
+  color: black !important;
+}
+
+
+
+/* Homepage */
+.home-page h1 {
+  color: rgb(97, 94, 94);
+  font-family: "Playfair Display", serif;
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-page .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+}
+
+.home-page .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-page .card-price {
+  color: green;
+  font-weight: bold;
+}
+
+.home-page button {
+  border-radius: 0;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.home-page .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.home-page .card img:hover {
+  transform: scale(0.9);
+}
+
+.home-page .card-img-top {
+  height: 300px !important;
+}
+
+.filters h4 {
+  margin-top: 50px;
+  color: rgb(97, 94, 94) !important;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+}
+
+.ant-checkbox-wrapper {
+  margin-bottom: 3px;
+}
+
+.ant-radio-wrapper {
+  margin-bottom: 5px !important;
+}
+
+.filters button {
+  background-color: black;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  margin-top: 5px;
+}
+
+.loadmore {
+  padding-left:25px;
+  padding-right:25px;
+  font-weight: bold;
+  font-size: 20px !important;
+} 
+
+
+
+/* Home page price */
+.price {
+  color: green;
+  font-weight: bold;
+}
+
+
+
+/* Admin and User Dashboard */
+.admin-dashboard .list-group-item:hover {
+  background-color: rgb(193, 186, 186) !important;
+}
+
+.admin-dashboard h4 {
+  background-color: #333;
+  color: white;
+  /* padding: 10px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+
+
+
+/* Single Product Details */
+.product-details {
+  margin-top: 45px !important;
+}
+
+.product-details img {
+  height: 300px;
+  width: 35rem;
+  border: 1px solid black;
+  margin-left: 12px;
+}
+
+.product-details-info {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.product-details-info h6 {
+  margin-bottom: 20px !important;
+}
+
+.similar-products .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+}
+
+.similar-products .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.similar-products .card-price {
+  color: green;
+  font-weight: bold;
+}
+.similar-products button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.similar-products .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.similar-products .card img:hover {
+  transform: scale(0.9);
+}
+
+.similar-products .card-img-top {
+  height: 300px !important;
+}
+
+.category-pricr {
+  color: green;
+}
+
+
+
+/* Category Product and Search Product */
+.category {
+  flex-wrap: wrap;
+  margin-top: 25px !important;
+}
+
+ .category .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+}
+
+.category .card-price {
+  color: green;
+  font-weight: bold;
+}
+.category button {
+  border-radius: 0;
+  /* width: 100%; */
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.category .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.category .card img:hover {
+  transform: scale(0.9);
+}
+
+.category .card-img-top {
+  height: 300px !important;
+} 
+
