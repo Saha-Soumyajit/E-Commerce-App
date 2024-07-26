@@ -40,6 +40,5 @@
 
 ### Getting Started 🚀
 ### Ready to turn heads? 💁‍♂️
-Explore the full functionality of our [E-Commerce](https://e-commerce-appf.onrender.com) site and enjoy a seamless shopping experience!
-_Ready to turn heads?_ 💁‍♂️ **_Visit our [E-Commerce](https://e-commerce-appf.onrender.com) site_**
+Explore the full functionality of our **[E-Commerce](https://e-commerce-appf.onrender.com)** site and enjoy a seamless shopping experience!
 
