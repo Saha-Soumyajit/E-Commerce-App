@@ -32,7 +32,7 @@
 - **MERN Stack:**
   - MongoDB: 🗄️ Database
   - Express.js: ⚙️ Backend framework
-  - React.js: 💻 Frontend framework.
+  - React.js: 💻 Frontend framework
   - Node.js: 🌐 Backend runtime environment
 - **Authentication:** 🔐 Secure user authentication and authorization
 - **Payment Integration:** 💳 Card payment processing for purchases
