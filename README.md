@@ -1,6 +1,6 @@
 # E-commerce Website (MERN Stack) 🛍️
 
-Welcome to the repository for my MERN stack e-commerce website. This project features a full-fledged e-commerce platform where users can explore a variety of products, filter their searches, and make purchases with ease. Admins have additional capabilities to manage the products and orders on the platform.
+🌟 Welcome to the repository for my MERN stack e-commerce website. This project features a full-fledged e-commerce platform where users can explore a variety of products, filter their searches, and make purchases with ease. Admins have additional capabilities to manage the products and orders on the platform.
 
 ## Features
 
@@ -38,9 +38,5 @@ Welcome to the repository for my MERN stack e-commerce website. This project fea
 - **Payment Integration:** 💳 Card payment processing for purchases
 - **State Management:** 🗂️ Using Redux for managing application state
 
-_Ready to turn heads?_ 💁‍♂️ **_Visit our [E-Commerce](https://e-commerce-appf.onrender.com)site_**
+_Ready to turn heads?_ 💁‍♂️ **_Visit our [E-Commerce](https://e-commerce-appf.onrender.com) site_**
 ## Getting Started 🚀
-
-### Prerequisites 📋
-- Node.js installed on your machine
-- MongoDB instance running
