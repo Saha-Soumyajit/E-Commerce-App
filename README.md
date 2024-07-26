@@ -24,6 +24,7 @@
   - Create new products 🆕
   - Update existing products 🔄
   - View all listed products 👀
+  - Remove products from the inventory ❌
 - **Order Management:**
   - View all user orders 📦
   - Change order status (Processing, Shipped, Delivered, or Canceled) 🚚
