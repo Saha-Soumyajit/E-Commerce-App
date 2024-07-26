@@ -36,7 +36,7 @@
   - Node.js: 🌐 Backend runtime environment
 - **Authentication:** 🔐 Secure user authentication and authorization
 - **Payment Integration:** 💳 Card payment processing for purchases
-- **State Management:** 🗂️ Using Redux for managing application state
+- **State Management:** 🗂️ Using Context API for managing application state
 
 _Ready to turn heads?_ 💁‍♂️ **_Visit our [E-Commerce](https://e-commerce-appf.onrender.com) site_**
 ## Getting Started 🚀
